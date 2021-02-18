@@ -1,3 +1,5 @@
+require 'pg'
+
 feature 'Viewing Bookmark Manager' do
   scenario 'visiting the index page' do
     visit('/')

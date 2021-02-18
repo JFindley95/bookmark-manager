@@ -6,6 +6,12 @@ So that I can go to web sites I saved
 I would like to see a list of bookmarks
 ```
 
+```
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+```
+
 ## Domain Model
 
 ![Bookmark Manager domain model](./domain_model.jpg)

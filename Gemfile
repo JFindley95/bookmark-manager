@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-
-gem 'pg'
-gem 'sinatra'
-gem 'rspec'
 gem 'capybara'
+gem 'pg'
+gem 'rspec'
+gem 'sinatra'

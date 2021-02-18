@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'pg'
 
 feature 'Adding a new bookmark' do

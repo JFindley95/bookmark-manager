@@ -5,12 +5,12 @@ require 'bookmark'
 describe Bookmark do
   describe '.all' do
     it 'returns all bookmarks' do
-      # connection = PG.connect(dbname: 'bookmark_manager_test')
       ## dummy test entry
+      # connection = PG.connect(dbname: 'bookmark_manager_test')
       # connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');")
       # connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.destroyallsoftware.com');")
       # connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.google.com');")
-
+      # can use the below now because we made a class method to insert bookmarks.
       Bookmark.create(url: 'http://www.makersacademy.com')
       Bookmark.create(url: 'http://www.destroyallsoftware.com')
       Bookmark.create(url: 'http://www.google.com')
